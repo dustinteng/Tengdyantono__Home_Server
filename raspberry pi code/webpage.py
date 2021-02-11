@@ -55,14 +55,12 @@ class MyServer(BaseHTTPRequestHandler):
                <input type="submit" name="submit" value="Click here to refresh" size="8">
            </form>
            
-           Gate:
            <form action="/" method="POST">
                <input type="submit" name="submit" value="   Car   " size="8">
                <input type="submit" name="submit" value=" People " size="8">
            </form>
 
 
-            Garden Sprinklers:
            <form action="/" method="POST">
                <input type="submit" name="submit" value="Front Lawn ON" size="8">
                <input type="submit" name="submit" value="Front Lawn OFF" size="8">
