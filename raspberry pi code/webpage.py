@@ -57,22 +57,22 @@ class MyServer(BaseHTTPRequestHandler):
            
            Gate:
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="   Car   " font-size="8">
-               <input type="submit" name="submit" value=" People " font-size="8">
+               <input type="submit" name="submit" value="   Car   " size="8">
+               <input type="submit" name="submit" value=" People " size="8">
            </form>
 
 
-            Garden Sprinkler:
+            Garden Sprinklers:
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Front Lawn ON" font-size="8">
-               <input type="submit" name="submit" value="Front Lawn OFF" font-size="8">
+               <input type="submit" name="submit" value="Front Lawn ON" size="8">
+               <input type="submit" name="submit" value="Front Lawn OFF" size="8">
            </form>
 
 
 
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Side Lawn ON" font-size="8">
-               <input type="submit" name="submit" value="Side Lawn OFF" font-size="8">
+               <input type="submit" name="submit" value="Side Lawn ON" size="8">
+               <input type="submit" name="submit" value="Side Lawn OFF" size="8">
            </form>
             
            </font>
