@@ -13,8 +13,8 @@ import time
 
 #initialization
 port = serial.Serial("/dev/rfcomm0", baudrate=9600) # you need to connect to arduino bluetooth dongle first
-host_name = 'XXX.XXX.X.XX'  # IP Address of Raspberry Pi - check using ifconfig
-host_port = #### // enter port number that you want
+host_name = '192.168.1.64'  # IP Address of Raspberry Pi - check using ifconfig
+host_port = 8000 // enter port number that you want
 
 #functions
 def setupGPIO():
