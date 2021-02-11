@@ -52,23 +52,29 @@ class MyServer(BaseHTTPRequestHandler):
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh">
+               <input type="submit" name="submit" value="Click here to refresh" size="4">
            </form>
            
            <form action="/" method="POST">
                Gate :
-               <input type="submit" name="submit" value="Car">
-               <input type="submit" name="submit" value="People">
+               <input type="submit" name="submit" value="   Car   " size="4">
+               <input type="submit" name="submit" value=" People " size="4">
            </form>
+
+
+
            <form action="/" method="POST">
                Front Lawn :
-               <input type="submit" name="submit" value="FL_ON">
-               <input type="submit" name="submit" value="FL_OFF">
+               <input type="submit" name="submit" value="Front Lawn ON" size="4">
+               <input type="submit" name="submit" value="Front Lawn OFF" size="4">
            </form>
+
+
+
            <form action="/" method="POST">
                Side Lawn:
-               <input type="submit" name="submit" value="SL_ON">
-               <input type="submit" name="submit" value="SL_OFF">
+               <input type="submit" name="submit" value="Side Lawn ON" size="4">
+               <input type="submit" name="submit" value="Side Lawn OFF" size="4">
            </form>
             
            </font>
@@ -87,20 +93,20 @@ class MyServer(BaseHTTPRequestHandler):
 
         setupGPIO()
 
-        if post_data == 'FL_ON':
+        if post_data == 'Front Lawn ON':
             GPIO.output(2, GPIO.LOW)
-        elif post_data == 'FL_OFF':
+        elif post_data == 'Front Lawn OFF':
             GPIO.output(2, GPIO.HIGH)
-        elif post_data == 'SL_ON':
+        elif post_data == 'Side Lawn ON':
             GPIO.output(3, GPIO.LOW)
-        elif post_data == 'SL_OFF':
+        elif post_data == 'Side Lawn OFF':
             GPIO.output(3, GPIO.HIGH)
         
-        elif post_data == 'Car':
+        elif post_data == '   Car   ':
             port.write("1".encode())
             port.write("0".encode())
 
-        elif post_data == 'People':
+        elif post_data == ' People ':
             port.write("2".encode())
             port.write("0".encode())
 
