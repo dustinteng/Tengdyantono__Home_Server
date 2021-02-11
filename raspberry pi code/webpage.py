@@ -52,25 +52,29 @@ class MyServer(BaseHTTPRequestHandler):
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" size="8">
+               <input type="submit" name="submit" value="Click here to refresh" size="5">
            </form>
            
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="   Car   " size="8">
-               <input type="submit" name="submit" value=" People " size="8">
-           </form>
-
-
-           <form action="/" method="POST">
-               <input type="submit" name="submit" value="Front Lawn ON" size="8">
-               <input type="submit" name="submit" value="Front Lawn OFF" size="8">
+               Gate :
+               <input type="submit" name="submit" value="   Car   " size="5">
+               <input type="submit" name="submit" value=" People " size="5">
            </form>
 
 
 
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Side Lawn ON" size="8">
-               <input type="submit" name="submit" value="Side Lawn OFF" size="8">
+               Front Lawn :
+               <input type="submit" name="submit" value="Front Lawn ON" size="5">
+               <input type="submit" name="submit" value="Front Lawn OFF" size="5">
+           </form>
+
+
+
+           <form action="/" method="POST">
+               Side Lawn:
+               <input type="submit" name="submit" value="Side Lawn ON" size="5">
+               <input type="submit" name="submit" value="Side Lawn OFF" size="5">
            </form>
             
            </font>
