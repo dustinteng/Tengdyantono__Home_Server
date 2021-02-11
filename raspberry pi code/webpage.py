@@ -57,8 +57,8 @@ class MyServer(BaseHTTPRequestHandler):
            
            <form action="/" method="POST">
                Gate :
-               <input type="submit" name="submit" value="   Car   ">
-               <input type="submit" name="submit" value=" People ">
+               <input type="submit" name="submit" value="Car" size="5">
+               <input type="submit" name="submit" value="People" size="5">
            </form>
 
 
@@ -102,11 +102,11 @@ class MyServer(BaseHTTPRequestHandler):
         elif post_data == 'Side Lawn OFF':
             GPIO.output(3, GPIO.HIGH)
         
-        elif post_data == '   Car   ':
+        elif post_data == 'Car':
             port.write("1".encode())
             port.write("0".encode())
 
-        elif post_data == ' People ':
+        elif post_data == 'People':
             port.write("2".encode())
             port.write("0".encode())
 
