@@ -57,8 +57,8 @@ class MyServer(BaseHTTPRequestHandler):
            
            <form action="/" method="POST">
                Gate :
-               <input type="submit" name="submit" value="   Car   " size="5">
-               <input type="submit" name="submit" value=" People " size="5">
+               <input type="submit" name="submit" value="   Car   ">
+               <input type="submit" name="submit" value=" People ">
            </form>
 
 
