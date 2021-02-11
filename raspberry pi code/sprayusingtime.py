@@ -31,15 +31,17 @@ canSpray = "17:10"
 
 while True:
     os.system('clear')
+    #GPIO.output(pinZone1,1)
+    #GPIO.output(pinZone2,1)
     # checking time
     timenow= datetime.datetime.now().strftime("%H:%M")
     # checking soil condition
     soil = GPIO.input(pinSoil)
 
     # logic
-    if timenow == sprayTime and condition == False and wet == 1:
+    if timenow == sprayTime and condition == False and soil == 1:
         condition = True #currently spraying 
-        #sprayer.spray_all()
+        sprayer.spray_all()
         print('setting system mode to: STANDBY')
 
     # this if statement is meant to prevent multiple program run during the sprayTime
@@ -54,4 +56,4 @@ while True:
     else:
         print("soil condition: wet")
 
-    time.sleep(2)
+    time.sleep(5)
