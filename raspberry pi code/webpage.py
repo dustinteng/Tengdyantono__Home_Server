@@ -67,15 +67,15 @@ class MyServer(BaseHTTPRequestHandler):
 
            <form action="/" method="POST">
                <p> Sprinkler System : </p>
-               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:235px" />
-               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:235px" />
+               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:225px" />
+               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:225px" />
            </form>
 
 
 
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:230px" />
-               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:230px" />
+               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:220px" />
+               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:220px" />
            </form>
             
            </font>
