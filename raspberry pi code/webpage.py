@@ -46,7 +46,7 @@ class MyServer(BaseHTTPRequestHandler):
         html = '''
            <html>
            <meta name="viewport" content="width=500">
-           <body style="width:480; margin: 20px auto; background-color:powderblue;">
+           <body style="width:480; margin: 20px auto; background-color:lightgray;">
            <p><br></p>
            <h1>Tengdyantono's Home Server</h1>
            <font size="5">
