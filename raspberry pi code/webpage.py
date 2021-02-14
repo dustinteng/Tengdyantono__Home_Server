@@ -52,7 +52,8 @@ class MyServer(BaseHTTPRequestHandler):
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" width: 50em;  height: 4em>
+               <input type="submit" name="submit" value="Click here to refresh">
+               {width: 20em;  height: 2em}
            </form>
            
            <form action="/" method="POST">
