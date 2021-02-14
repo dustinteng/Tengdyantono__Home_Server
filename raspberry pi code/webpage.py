@@ -52,12 +52,12 @@ class MyServer(BaseHTTPRequestHandler):
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" size="10">
+               <input type="submit" name="submit" value="Click here to refresh" size=10>
            </form>
            
            <form action="/" method="POST">
                Gate :
-               <input type="submit" name="submit" value="Car" size="5">
+               <input type="submit" name="submit" value="Car" size=20>
                <input type="submit" name="submit" value="People" size="5">
            </form>
 
