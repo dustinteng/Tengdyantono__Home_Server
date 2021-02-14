@@ -50,9 +50,9 @@ class MyServer(BaseHTTPRequestHandler):
            <h1>Tengdyantono's Home Server</h1>
            <font size="5">
            <p><br></p>
-           <p><br></p>
            <p>Current GPU temperature is {}</p>
-           Please click the button ONCE.
+           <p><br></p>
+                Please click the buttons ONCE.
            <form action="/" method="POST">
                <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:500px" />
                
