@@ -50,7 +50,6 @@ class MyServer(BaseHTTPRequestHandler):
            <h1>Tengdyantono's Home Server</h1>
            <font size="5">
            <p><br></p>
-           <p>Current GPU temperature is {}</p>
            <p><br></p>
                 Please click the buttons ONCE.
            <form action="/" method="POST">
@@ -79,7 +78,9 @@ class MyServer(BaseHTTPRequestHandler):
                <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:229px" />
                <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:229px" />
            </form>
-            
+           <p><br></p>
+            <p>Current GPU temperature is {}</p>
+            <p> PT.Terang Empat Nusantara Gelora </p>
            </font>
            </body>
            </html>
