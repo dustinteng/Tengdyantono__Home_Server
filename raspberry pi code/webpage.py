@@ -53,7 +53,7 @@ class MyServer(BaseHTTPRequestHandler):
            <p><br></p>
                 Please click the buttons ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:490px" />
+               <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:480px" />
                
            </form>
            
@@ -79,7 +79,7 @@ class MyServer(BaseHTTPRequestHandler):
                <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:229px" />
            </form>
            <p><br></p>
-            <p style="color:blue;font-size:11px;"> GPU temperature is {}</p>
+            <p style="color:blue;font-size:11px;"> GPU temperature: {}</p>
             <p style="color:blue;font-size:11px;"> PT. Terang Empat Nusantara Gelora </p>
            </font>
            </body>
