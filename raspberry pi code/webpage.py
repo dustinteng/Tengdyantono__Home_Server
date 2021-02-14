@@ -52,30 +52,30 @@ class MyServer(BaseHTTPRequestHandler):
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:450px" />
+               <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:500px" />
                
            </form>
            
            <form action="/" method="POST">
-               Gate :
-               <input type="submit" name="submit" value="Car" style="font-size : 20px; height:50px; width:150px" />
-               <input type="submit" name="submit" value="People" style="font-size : 20px; height:50px; width:150px" />
+               Gate : \n
+               <input type="submit" name="submit" value="Car" style="font-size : 20px; height:50px; width:166px" />
+               <input type="submit" name="submit" value="People" style="font-size : 20px; height:50px; width:166px" />
+               <input type="submit" name="submit" value="Close" style="font-size : 20px; height:50px; width:166px" />
            </form>
 
 
 
            <form action="/" method="POST">
-               Front Lawn :
-               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:150px" />
-               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:160px" />
+               Sprinkler System :\n
+               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:250px" />
+               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:250px" />
            </form>
 
 
 
            <form action="/" method="POST">
-               Side Lawn:
-               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:150px" />
-               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:150px" />
+               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:250px" />
+               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:250px" />
            </form>
             
            </font>
@@ -103,7 +103,7 @@ class MyServer(BaseHTTPRequestHandler):
         elif post_data == 'Side Lawn OFF':
             GPIO.output(3, GPIO.HIGH)
         
-        elif post_data == 'Car':
+        elif post_data == 'Car' or post_data == 'Close':
             port.write("1".encode())
             port.write("0".encode())
 
