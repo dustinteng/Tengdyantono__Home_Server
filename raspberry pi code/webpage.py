@@ -67,8 +67,8 @@ class MyServer(BaseHTTPRequestHandler):
 
            <form action="/" method="POST">
                <p> Sprinkler System : </p>
-               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:225px" />
-               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:225px" />
+               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:229px" />
+               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:229px" />
            </form>
 
 
