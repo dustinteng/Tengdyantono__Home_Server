@@ -53,7 +53,7 @@ class MyServer(BaseHTTPRequestHandler):
            <p><br></p>
                 Please click the buttons ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:500px" />
+               <input type="submit" name="submit" value="Click here to refresh" style="font-size : 20px;height:50px; width:490px" />
                
            </form>
            
