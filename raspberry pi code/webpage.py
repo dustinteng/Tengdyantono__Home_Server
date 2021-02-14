@@ -52,30 +52,30 @@ class MyServer(BaseHTTPRequestHandler):
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Click here to refresh" style="height:50px; width:50px" />
+               <input type="submit" name="submit" value="Click here to refresh" style="height:50px; width:150px" />
                
            </form>
            
            <form action="/" method="POST">
                Gate :
-               <input type="submit" name="submit" value="Car" size=20>
-               <input type="submit" name="submit" value="People" size="5">
+               <input type="submit" name="submit" value="Car" style="height:50px; width:150px" />
+               <input type="submit" name="submit" value="People" style="height:50px; width:150px" />
            </form>
 
 
 
            <form action="/" method="POST">
                Front Lawn :
-               <input type="submit" name="submit" value="Front Lawn ON" size="5">
-               <input type="submit" name="submit" value="Front Lawn OFF" size="5">
+               <input type="submit" name="submit" value="Front Lawn ON" style="height:50px; width:150px" />
+               <input type="submit" name="submit" value="Front Lawn OFF" style="height:50px; width:150px" />
            </form>
 
 
 
            <form action="/" method="POST">
                Side Lawn:
-               <input type="submit" name="submit" value="Side Lawn ON" size="5">
-               <input type="submit" name="submit" value="Side Lawn OFF" size="5">
+               <input type="submit" name="submit" value="Side Lawn ON" style="height:50px; width:150px" />
+               <input type="submit" name="submit" value="Side Lawn OFF" style="height:50px; width:150px" />
            </form>
             
            </font>
