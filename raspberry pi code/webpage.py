@@ -58,24 +58,24 @@ class MyServer(BaseHTTPRequestHandler):
            
            <form action="/" method="POST">
                <p> Gate : </p>
-               <input type="submit" name="submit" value="Car" style="font-size : 20px; height:50px; width:166px" />
-               <input type="submit" name="submit" value="People" style="font-size : 20px; height:50px; width:166px" />
-               <input type="submit" name="submit" value="Close" style="font-size : 20px; height:50px; width:166px" />
+               <input type="submit" name="submit" value="Car" style="font-size : 20px; height:50px; width:160px" />
+               <input type="submit" name="submit" value="People" style="font-size : 20px; height:50px; width:160px" />
+               <input type="submit" name="submit" value="Close" style="font-size : 20px; height:50px; width:160px" />
            </form>
 
 
 
            <form action="/" method="POST">
                <p> Sprinkler System : </p>
-               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:250px" />
-               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:250px" />
+               <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px; height:50px ; width:245px" />
+               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px; height:50px ; width:245px" />
            </form>
 
 
 
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:250px" />
-               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:250px" />
+               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:240px" />
+               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:240px" />
            </form>
             
            </font>
