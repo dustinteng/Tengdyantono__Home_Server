@@ -58,9 +58,9 @@ class MyServer(BaseHTTPRequestHandler):
            
            <form action="/" method="POST">
                <p> Gate : </p>
-               <input type="submit" name="submit" value="Car" style="font-size : 20px; height:50px; width:160px" />
-               <input type="submit" name="submit" value="People" style="font-size : 20px; height:50px; width:160px" />
-               <input type="submit" name="submit" value="Close" style="font-size : 20px; height:50px; width:160px" />
+               <input type="submit" name="submit" value="Car" style="font-size : 20px; height:50px; width:150px" />
+               <input type="submit" name="submit" value="People" style="font-size : 20px; height:50px; width:150px" />
+               <input type="submit" name="submit" value="Close" style="font-size : 20px; height:50px; width:150px" />
            </form>
 
 
@@ -74,8 +74,8 @@ class MyServer(BaseHTTPRequestHandler):
 
 
            <form action="/" method="POST">
-               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:220px" />
-               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:220px" />
+               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:229px" />
+               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:229px" />
            </form>
             
            </font>
