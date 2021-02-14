@@ -47,6 +47,7 @@ class MyServer(BaseHTTPRequestHandler):
            <html>
            <meta name="viewport" content="width=500">
            <body style="width:480; margin: 20px auto;">
+           <p><br></p>
            <h1>Tengdyantono's Home Server</h1>
            <font size="5">
            <p><br></p>
@@ -78,7 +79,7 @@ class MyServer(BaseHTTPRequestHandler):
                <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:229px" />
            </form>
            <p><br></p>
-            <p style="color:blue;font-size:11px;>Current GPU temperature is {}</p>
+            <p style="color:blue;font-size:11px;"> GPU temperature is {}</p>
             <p style="color:blue;font-size:11px;"> PT. Terang Empat Nusantara Gelora </p>
            </font>
            </body>
