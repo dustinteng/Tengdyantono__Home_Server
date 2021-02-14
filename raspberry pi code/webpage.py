@@ -67,15 +67,15 @@ class MyServer(BaseHTTPRequestHandler):
            <form action="/" method="POST">
                Front Lawn :
                <input type="submit" name="submit" value="Front Lawn ON" style="font-size : 20px;height:50px ; width:150px" />
-               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px;height:50px ; width:150px" />
+               <input type="submit" name="submit" value="Front Lawn OFF" style="font-size : 20px/>
            </form>
 
 
 
            <form action="/" method="POST">
                Side Lawn:
-               <input type="submit" name="submit" value="Side Lawn ON" style=font-size : 20px;height:50px ; width:150px" />
-               <input type="submit" name="submit" value="Side Lawn OFF" style=font-size : 20px;height:50px ; width:150px" />
+               <input type="submit" name="submit" value="Side Lawn ON" style="font-size : 20px;height:50px ; width:150px" />
+               <input type="submit" name="submit" value="Side Lawn OFF" style="font-size : 20px;height:50px ; width:150px" />
            </form>
             
            </font>
