@@ -8,7 +8,7 @@ import time
 import os
 
 #variable initalization
-minutes = 30
+minutes = 10
 seconds = minutes * 60
 while True:
     os.system("clear")
