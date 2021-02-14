@@ -49,8 +49,8 @@ class MyServer(BaseHTTPRequestHandler):
            <body style="width:480; margin: 20px auto;">
            <h1>Tengdyantono's Home Server</h1>
            <font size="5">
-           <p></p>
-           <p></p>
+           <p><br></p>
+           <p><br></p>
            <p>Current GPU temperature is {}</p>
            Please click the button ONCE.
            <form action="/" method="POST">
