@@ -6,14 +6,20 @@
 import webpage 
 import time
 import os
-
+import datetime
 #variable initalization
-minutes = 10
+hours = 12
+minutes = hours*60
 seconds = minutes * 60
+timeReset = "12:00"
 while True:
     os.system("clear")
-    os.system("pm2 restart 1") #smart / lazy :)
-    print("website is running")
-    print("reset every " + str(minutes) + " minutes")
-    time.sleep(seconds) #change the front to set minutes
+    timenow= datetime.datetime.now().strftime("%H:%M")
+
+    if timenow == timeReset:
+        os.system("pm2 restart 1") #smart / lazy :)
+        print("website is running")
+        print("reset every " + str(minutes) + " minutes")
+
+    time.sleep(5)
     
